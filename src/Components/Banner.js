@@ -3,9 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import headerImg from "../assets/img/header-img2.svg";
 
+
+/* Beginning of the typing animation code */
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false); 
+    /* Chosen text that will be animated */
     const toRotate = [ "Web Developer.", "Frontend Developer.", "Fullstack Developer." ];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
@@ -39,6 +42,8 @@ export const Banner = () => {
             setDelta(500);
         }
     };
+    /* End of the typing animation code */
+
     return (
     <section className="banner" id="home">
         <Container>
