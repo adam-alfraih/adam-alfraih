@@ -29,7 +29,7 @@ export const Projects = () => {
                 <Row>
                     <Col>
                         <h2>Projects</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>Here are some projects I made during the intensive Ironhack Full-Stack Web Development program. Let's have a chat about them. I would love to explain my process behind making these websites over a video call.</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                         <Nav.Item>
@@ -86,8 +86,8 @@ export const Projects = () => {
                                 }
                             </Row>
                         </Tab.Pane>
-                        <Tab.Pane eventKey="second">More Projects Coming Soon!</Tab.Pane>
-                        <Tab.Pane eventKey="third">More Projects Coming Soon!</Tab.Pane>
+                        <Tab.Pane eventKey="second">As you are reading this, I am already working on new projects to post here! More projects coming soon.</Tab.Pane>
+                        <Tab.Pane eventKey="third">As you are reading this, I am already working on new projects to post here! More projects coming soon.</Tab.Pane>
                     </Tab.Content>
                     </Tab.Container>
                     </Col>
