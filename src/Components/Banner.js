@@ -51,7 +51,7 @@ export const Banner = () => {
                 <Col xs={12} md={6} xl={7}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi I'm Adam, a `} <span className="wrap">{text}</span></h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Born and raised in Toronto, Canada, now in Berlin. I'm a full-stack developer with a focus on front-end. Having experience in digital content creation, I understand the digital landscape and can help apply a brands’ aesthetic on any online platform. After discovering a new-found passion for code and tech, I made my decision to switch careers and begin my journey as a web developer.</p>
                 <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
