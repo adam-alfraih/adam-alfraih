@@ -29,7 +29,7 @@ export const Projects = () => {
                 <Row>
                     <Col>
                         <h2>Projects</h2>
-                        <p>Here are some projects I made during the intensive Ironhack Full-Stack Web Development program. Let's have a chat about them. I would love to explain my process behind making these websites over a video call.</p>
+                        <p>Here are some projects I made during the intensive Ironhack Full-Stack Web Development program. Let's have a chat about them. I would love to explain my process behind making these websites over a video call. As you read this, I'm already working on the next project.</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             {/* <Nav.Item>

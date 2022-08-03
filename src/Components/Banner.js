@@ -64,7 +64,7 @@ export const Banner = () => {
                                         <br />
                                         Wordpress, Squarespace, and Webflow are hosting services that we can work with. 
                                         <br />
-                                        You can expect a website that includes clean UX/UI, mobile-friendly design, performance optimization, contact forms, mailing list signup forms, and more. Acknowledging that each project is unique, the best step forward would be to plan a one hour 1-on-1 video call with me, free of charge. That way, I can assemble a proposal that is specific to your idea and budget. Prices can be discussed after our call. As a junior web developer, you can expect fair prices to accommodate your needs.
+                                        You can expect a website that includes clean UX/UI, mobile-friendly design, performance optimization, contact forms, mailing list signup forms, and more. Acknowledging that each project is unique, the best step forward would be to book a one hour 1-on-1 video call with me, free of charge. That way, I can assemble a proposal that is specific to your idea and budget. Prices can be discussed after our call. As a junior web developer, you can expect fair prices to accommodate your needs.
                                     </p>
 
                                     <a href="mailto:adamalfraih@gmail.com">
