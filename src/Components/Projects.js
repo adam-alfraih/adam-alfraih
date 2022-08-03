@@ -52,7 +52,9 @@ export const Projects = () => {
                                         <img src={project1} alt="" />
                                         <div className="proj-txtx">
                                             <h4>eStore</h4>
-                                            <span>Hello</span>
+                                            <span>A responsive React based web app that mimics an E-commerce web store using an API. This is a CRUD application with authentification.</span>
+                                            <br /><br />
+                                            <span>Click to see GitHub repo. URL is in the GitHub bio.</span>
                                         </div>
                                     </div>
                                     </a>
@@ -65,7 +67,9 @@ export const Projects = () => {
                                         <img src={project2} alt="" />
                                         <div className="proj-txtx">
                                             <h4>clubKid</h4>
-                                            <span>A full-stack CRUD web application</span>
+                                            <span>A fullstack CRUD web application where users can sign up, log in,create, view, and filter local events. This app also uses Mapbox.</span>
+                                            <br /><br />
+                                            <span>Click to see GitHub repo. URL is in the GitHub bio.</span>
                                         </div>
                                     </div>
                                     </a>
@@ -77,8 +81,10 @@ export const Projects = () => {
                                     <div className="proj-imgbx">
                                         <img src={project3} alt="" />
                                         <div className="proj-txtx">
-                                            <h4>eStore</h4>
-                                            <span>Hello</span>
+                                            <h4>JavaScript DJ</h4>
+                                            <span>A JavaScript browser game created using p5.js, a JavaScript library. An algorithm randomly shuffles 3 CD's. Only one random CD hold the correct song choice.</span>
+                                            <br /><br />
+                                            <span>Click to see GitHub repo. URL is in the GitHub bio.</span>
                                         </div>
                                     </div>
                                     </a>
