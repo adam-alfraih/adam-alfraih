@@ -53,31 +53,37 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <TrackVisibility>
                             {({ isVisible }) =>
-                           <div className={isVisible ? "animate__animated animate__pulse" : ""}>
-                            <span className="tagline">Welcome to my Portfolio</span>
-                            <h1>{`Hi I'm Adam, a `} <span className="wrap">{text}</span></h1>
-                            <p>Born and raised in Toronto, Canada, now in Berlin. I'm a full-stack developer with a focus on front-end. Having experience in digital content creation, I understand the digital landscape and can help apply a brands’ aesthetic on any online platform.
-                            <br></br>
-                            <br></br>
-                            Want to make a website? You'll be working both with me, as well as my senior web dev mentor who has over 6 years of professional experience in the industry! Together, we can help you create your ideal website.</p>
+                                <div className={isVisible ? "animate__animated animate__pulse" : ""}>
+                                    <span className="tagline">Welcome to my Portfolio</span>
+                                    <h1>{`Hi I'm Adam, a `} <span className="wrap">{text}</span></h1>
+                                    <p>Born and raised in Toronto, Canada, now living in Berlin. I'm a fullstack developer with a focus on frontend. Having experience in digital content creation, I understand the digital landscape and can help apply a brand's aesthetic on any online platform.
+                                        <br></br>
+                                        <br></br>
+                                        <h2>Want to make a website?</h2>
+                                        I'm looking build websites for creative individuals and small businesses.
+                                        <br />
+                                        Wordpress, Squarespace, and Webflow are hosting services that we can work with. 
+                                        <br />
+                                        You can expect a website that includes clean UX/UI, mobile-friendly design, performance optimization, contact forms, mailing list signup forms, and more. Acknowledging that each project is unique, the best step forward would be to plan a one hour 1-on-1 video call with me, free of charge. That way, I can assemble a proposal that is specific to your idea and budget. Prices can be discussed after our call. As a junior web developer, you can expect fair prices to accommodate your needs.
+                                    </p>
 
-                            <a href="mailto:adamalfraih@gmail.com">
-                            <button>Let's connect <ArrowRightCircle size={25}/></button>
-                            </a>
+                                    <a href="mailto:adamalfraih@gmail.com">
+                                        <button>Let's connect <ArrowRightCircle size={25} /></button>
+                                    </a>
 
-                            </div>}
-                    </TrackVisibility>
-                </Col>
-                <Col xs={12} md={6} xl={5}>
-                <TrackVisibility>
-                {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__fadeInUp" : ""}>
-                    <img src={headerImg} alt="Header Img" />
-                    </div>}
-                    </TrackVisibility>
-                </Col>
-            </Row>
-        </Container>
-    </section >
+                                </div>}
+                        </TrackVisibility>
+                    </Col>
+                    <Col xs={12} md={6} xl={5}>
+                        <TrackVisibility>
+                            {({ isVisible }) =>
+                                <div className={isVisible ? "animate__animated animate__fadeInUp" : ""}>
+                                    <img src={headerImg} alt="Header Img" />
+                                </div>}
+                        </TrackVisibility>
+                    </Col>
+                </Row>
+            </Container>
+        </section >
     )
 }
