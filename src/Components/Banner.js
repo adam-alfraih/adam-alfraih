@@ -56,15 +56,17 @@ export const Banner = () => {
                                 <div className={isVisible ? "animate__animated animate__pulse" : ""}>
                                     <span className="tagline">Welcome to my Portfolio</span>
                                     <h1>{`Hi I'm Adam, a `} <span className="wrap">{text}</span></h1>
-                                    <p>Born and raised in Toronto, Canada, now living in Berlin. I'm a fullstack developer with a focus on frontend. Having experience in digital content creation, I understand the digital landscape and can help apply a brand's aesthetic on any online platform.
-                                        <br></br>
-                                        <br></br>
-                                        <h2>Want to make a website?</h2>
-                                        I'm looking build websites for creative individuals and small businesses.
+                                    <p>
+                                        Born and raised in Toronto, Canada, I'm now living in Berlin. I'm a fullstack web developer with a focus on frontend. I live and breathe the digital landscape, so I can help with your content strategy and applying your unique aesthetic on any online platform.
                                         <br />
-                                        Wordpress, Squarespace, and Webflow are hosting services that we can work with. 
                                         <br />
-                                        You can expect a website that includes clean UX/UI, mobile-friendly design, performance optimization, contact forms, mailing list signup forms, and more. Acknowledging that each project is unique, the best step forward would be to book a one hour 1-on-1 video call with me, free of charge. That way, I can assemble a proposal that is specific to your idea and budget. Prices can be discussed after our call. As a junior web developer, you can expect fair prices to accommodate your needs.
+                                        <h2>Want a hand with your website?</h2>
+                                        I'm looking to work with creative individuals and small businesses, whether you have a website already or you'd like to build something new together.
+                                        <br />
+                                        Each project is unique, so let's meet for a one-hour introductory call to discuss what you're after, free of charge. From there I'll send you a proposal tailored to your needs and budget.
+                                        <br />
+                                        <br />
+                                       Send me a message and we'll take it from there.
                                     </p>
 
                                     <a href="mailto:adamalfraih@gmail.com">

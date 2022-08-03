@@ -12,6 +12,8 @@ import jasmineLogo from "../assets/img/jasmineLogo.png";
 import herokuLogo from "../assets/img/herokuLogo.png";
 import restapiLogo from "../assets/img/restapiLogo.png";
 import passportjsLogo from "../assets/img/passportjsLogo.png";
+import wordpressLogo from "../assets/img/wordpressLogo.png";
+import squarespaceLogo from "../assets/img/squarespaceLogo.png";
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -46,9 +48,11 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills & Technologies</h2>
-                        <p>Having completed the Ironhack Full-Stack Web Development program,
-                        <br></br>
-                        I have project experience with building full stack React SPAs, modern JavaScript applications, RESTful APIs, + more</p>
+                        <p>
+                            My specialties are full stack React SPAs and modern JavaScript applications with RESTful APIs.
+                            <br></br>
+                            I've completed the Ironhack Full-Stack Web Development program.
+                        </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={reactLogo} alt="React Logo" />
@@ -105,6 +109,14 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={iphoneIcon} alt="iphone Icon" />
                                 <h5>Responsive design</h5>
+                            </div>
+                            <div className="item">
+                                <img src={wordpressLogo} alt="wordpress Logo" />
+                                <h5>Wordpress</h5>
+                            </div>
+                            <div className="item">
+                                <img src={squarespaceLogo} alt="squarespace Logo" />
+                                <h5>Squarespace</h5>
                             </div>
                         </Carousel>
                     </div>
