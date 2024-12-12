@@ -4,6 +4,9 @@ import colorSharp2 from "../assets/img/color-sharp2.png"
 import project1 from "../assets/img/estoreImg.png"
 import project2 from "../assets/img/clubkidImg.png"
 import project3 from "../assets/img/jsdjImg.png"
+import project4 from "../assets/img/advancedcsswebsite.png"
+import project5 from "../assets/img/ralphImg.png"
+import project6 from "../assets/img/tipsyImg.png"
 export const Projects = () => {
     const projects = [
         {
@@ -21,6 +24,21 @@ export const Projects = () => {
             description: "A JavaScript browser game",
             imgUrl: project3,
         },
+        {
+            title: "Advanced CSS Website",
+            description: "An advanced CSS website",
+            imgUrl: project4,
+        },
+        {
+            title: "Website Wireframe",
+            description: "A Figma Wireframe",
+            imgUrl: project5,
+        },
+        {
+            title: "Tipsy Bear Berlin",
+            description: "An event platform",
+            imgUrl: project6,
+        },
     ];
 
     return (
@@ -32,7 +50,7 @@ export const Projects = () => {
                         <p>
                             I love building sample projects to keep my skills fresh.
                             <br />
-                            Here are some of my latest experiments.
+                            Here are some of my experiments.
                         </p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -51,6 +69,36 @@ export const Projects = () => {
                                     <Row>
                                         {
                                             <Col sml={6} md={4}>
+                                                <a href="https://tipsybearberlin.com/" target="_blank" rel="noreferrer">
+                                                    <div className="proj-imgbx">
+                                                        <img src={project6} alt="" />
+                                                        <div className="proj-txtx">
+                                                            <h4>Tipsy Bear Berlin</h4>
+                                                            <span>Designed and implemented select pages for the Tipsy Bear Berlin website using Semplice on Wordpress, a no-code drag-and-drop platform.</span>
+                                                            <br /><br />
+                                                            <span>Click to see Tipsybearberlin.com</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </Col>
+                                        }
+                                        {
+                                            <Col sml={6} md={4}>
+                                                <a href="https://github.com/adam-alfraih/advanced-css-website" target="_blank" rel="noreferrer">
+                                                    <div className="proj-imgbx">
+                                                        <img src={project4} alt="" />
+                                                        <div className="proj-txtx">
+                                                            <h4>Advanced CSS Webiste</h4>
+                                                            <span>A website built using advanced CSS and Sass.</span>
+                                                            <br /><br />
+                                                            <span>Click to see GitHub repo. URL is in the GitHub bio.</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </Col>
+                                        }
+                                        {
+                                            <Col sml={6} md={4}>
                                                 <a href="https://github.com/adam-alfraih/eStore-finalproject" target="_blank" rel="noreferrer">
                                                     <div className="proj-imgbx">
                                                         <img src={project1} alt="" />
@@ -66,6 +114,22 @@ export const Projects = () => {
                                         }
                                         {
                                             <Col sml={6} md={4}>
+                                                <a href="https://www.figma.com/file/WhZHib5DMYYz3jvoJmeldq/Project%3A-Ralph-Remstedt-Wireframe-v1.0?type=design&node-id=0%3A1&mode=design&t=DZtAncHrqbLO6dSW-1" target="_blank" rel="noreferrer">
+                                                    <div className="proj-imgbx">
+                                                        <img src={project5} alt="" />
+                                                        <div className="proj-txtx">
+                                                            <h4>Website Wireframe</h4>
+                                                            <span>Designed a user-friendly wireframe to streamline website navigation and blueprint the visual layout of the live website.
+                                                            </span>
+                                                            <br /><br />
+                                                            <span>Click to see the figma project</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </Col>
+                                        }
+                                        {/* { 
+                                            <Col sml={6} md={4}>
                                                 <a href="https://github.com/adam-alfraih/clubKid-project2" target="_blank" rel="noreferrer">
                                                     <div className="proj-imgbx">
                                                         <img src={project2} alt="" />
@@ -78,7 +142,8 @@ export const Projects = () => {
                                                     </div>
                                                 </a>
                                             </Col>
-                                        }
+                                        } */}
+
                                         {
                                             <Col sml={6} md={4}>
                                                 <a href="https://github.com/adam-alfraih/js-dj" target="_blank" rel="noreferrer">

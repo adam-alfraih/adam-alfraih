@@ -14,6 +14,7 @@ import restapiLogo from "../assets/img/restapiLogo.png";
 import passportjsLogo from "../assets/img/passportjsLogo.png";
 import wordpressLogo from "../assets/img/wordpressLogo.png";
 import squarespaceLogo from "../assets/img/squarespaceLogo.png";
+import microsoftLogo from "../assets/img/microsoft365Logo.png";
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -117,6 +118,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={squarespaceLogo} alt="squarespace Logo" />
                                 <h5>Squarespace</h5>
+                            </div>
+                            <div className="item">
+                                <img src={microsoftLogo} alt="microsoft 265 Logo" />
+                                <h5>Microsoft 365</h5>
                             </div>
                         </Carousel>
                     </div>

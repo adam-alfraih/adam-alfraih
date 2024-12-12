@@ -17,7 +17,7 @@ export const Footer = () => {
                 <a href="https://www.linkedin.com/in/adam-alfraih/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/adam-alfraih"target="_blank" rel="noreferrer"><img src={navIcon2} alt="" /></a>
             </div>
-            <p>This website was made with React JS.</p>
+            <p>This website was made by Adam Al Fraih with React JS.</p>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
         </Row>
