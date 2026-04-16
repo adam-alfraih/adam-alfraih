@@ -70,15 +70,15 @@ export const Banner = () => {
                                         {/* <h2>Want a hand with your website?</h2> */}
                                         This site showcases both sides of that background. You'll 
                                         find creative work from my time directing and producing for 
-                                        global brands, alongside technical projects built with React, 
+                                        global brands in my film portfolio, alongside technical projects built with React, 
                                         Node.js and REST APIs.
                                         <br />
                                         <br />
                                         Feel free to explore my projects and see how I’ve applied my skills to deliver exceptional results. Let’s connect to discuss how I can contribute to your team.
                                     </p>
 
-                                    <a href="mailto:adamalfraih@gmail.com">
-                                        <button>Let's connect <ArrowRightCircle size={25} /></button>
+                                    <a href="mailto:https://drive.google.com/file/d/1FRlCdcSMmwFhVlDYaAy1J-VWicUjnafH/view@gmail.com">
+                                        <button>View Film Portfolio <ArrowRightCircle size={25} /></button>
                                     </a>
 
                                 </div>}

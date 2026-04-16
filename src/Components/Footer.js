@@ -18,7 +18,7 @@ export const Footer = () => {
                 <a href="https://github.com/adam-alfraih"target="_blank" rel="noreferrer"><img src={navIcon2} alt="" /></a>
             </div>
             <p>This website was made by Adam Al Fraih with React JS.</p>
-            <p>Copyright 2026. All Rights Reserved</p>
+            <p>Copyright {new Date().getFullYear()}. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
