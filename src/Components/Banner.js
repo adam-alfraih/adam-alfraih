@@ -77,7 +77,7 @@ export const Banner = () => {
                                         Feel free to explore my projects and see how I’ve applied my skills to deliver exceptional results. Let’s connect to discuss how I can contribute to your team.
                                     </p>
 
-                                    <a href="YOUR_GOOGLE_DRIVE_PDF_LINK" target="_blank" rel="noreferrer">
+                                    <a href="https://drive.google.com/file/d/1FRlCdcSMmwFhVlDYaAy1J-VWicUjnafH/view" target="_blank" rel="noreferrer">
                                     <button>View Film Portfolio <ArrowRightCircle size={25} /></button>
                                     </a>
 
