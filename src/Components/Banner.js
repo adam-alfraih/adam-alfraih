@@ -60,11 +60,18 @@ export const Banner = () => {
                                         
                                     </h1>
                                     <p>
-                                        Born and raised in Toronto, Canada, I recently returned home after living in Berlin. I'm a full-stack web developer with a strong focus on frontend development and crafting seamless user experiences.
+                                        Born and raised in Toronto, I built my career internationally, 
+                                        managing accounts for global brands including Vogue Arabia, 
+                                        Nike, Puma and Sephora in Dubai, and working as a freelance 
+                                        developer and creative in Berlin. I bring a rare combination 
+                                        of enterprise client management and technical fluency.
                                         <br />
                                         <br />
                                         {/* <h2>Want a hand with your website?</h2> */}
-                                        This website showcases projects that highlight my technical expertise, creative problem-solving, and dedication to delivering user-focused solutions. Each project reflects my commitment to detail and my ability to translate complex ideas into functional, visually appealing applications. I even coded this website using React!
+                                        This site showcases both sides of that background. You'll 
+                                        find creative work from my time directing and producing for 
+                                        global brands, alongside technical projects built with React, 
+                                        Node.js and REST APIs.
                                         <br />
                                         <br />
                                         Feel free to explore my projects and see how I’ve applied my skills to deliver exceptional results. Let’s connect to discuss how I can contribute to your team.
