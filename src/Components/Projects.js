@@ -5,7 +5,7 @@ import project1 from "../assets/img/estoreImg.png"
 import project2 from "../assets/img/clubkidImg.png"
 import project3 from "../assets/img/jsdjImg.png"
 import project4 from "../assets/img/advancedcsswebsite.png"
-import project5 from "../assets/img/ralphImg.png"
+// import project5 from "../assets/img/ralphImg.png"
 import project6 from "../assets/img/tipsyImg.png"
 export const Projects = () => {
     const projects = [
